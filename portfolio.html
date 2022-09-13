@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/413105617e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="picture/new logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi I am <span>Aidil Sharif</span> <br> from Malaysia</h1>
+                <p>Web Designer & Developer</p>  
+                <img src="picture/new pic bitmoji.png">
+            </div>
+        </div>
+    </div>
+<!-- about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="picture/WhatsApp Image 2022-07-10 at 11.41.40 AM.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1  class="subtitle">About Me</h1>
+                    <p>A high performance in web designer and developer. I can make a high performance fully functioning website with precise coding. i can also provide with beautiful graphic design for a sleek looking website. Adding a feature such as animation to make the web more interractive is a must that can be access to all user.
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>GRAPHIC DESIGNER</span><br>Designing poster and video editor according to clients</li>
+                            <li><span>PROJECT MANAGER</span><br>In charge of managment of the programme and finance</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-PRESENT</span><br>BENG COMPUTER INFORMATION AND
+                                ELECTRONIC(HONOURS)</li>
+                            <li><span>2018-2019</span><br>FOUNDATION IN ENGINEERING AND
+                                COMPUTER SCIENCE
+                                </li>
+                            <li><span>2013-2017</span><br>SIJIL PELAJARAN MALAYSIA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Skills</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="picture/1200px-Python.svg.png">
+                <div class="layer">
+                    <h3>Python</h3>
+                    <p> Used to build websites and software, 
+                        automate tasks, and conduct data analysis. 
+                        Python is a general-purpose language.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="picture/logo-html5-js-css3-png-transparent-logo-4.png">
+                <div class="layer">
+                    <h3>HTML CSS JavaScript</h3>
+                    <p>As a web developer, the three main languages we use to build websites are
+                         HTML, CSS, and JavaScript. JavaScript is the programming language, we use HTML to structure the site,
+                          and we use CSS to design and layout the web page. These days,
+                         CSS has become more than just a design language, though.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="picture/java.png">
+                <div class="layer">
+                    <h3>JAVA</h3>
+                    <p>Java has long been the de-facto programming language for creating 
+                        Web apps, Android apps, and software development tools such as Eclipse, IntelliJ IDEA, and NetBeans IDE.
+                         Development tools.
+                        The Integrated Development Environment (IDE) is one of Java's most intriguing features.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--Services-->
+<div id="services">
+    <div class="container">
+        <h1  class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-object-group"></i>
+                <h2>Web Design</h2>
+                <p>Web designers plan, create and code internet sites and web pages,
+                     many of which combine text with sounds, pictures, graphics and video
+                      clips</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-mobile-screen-button"></i>
+                <h2>Web Developer</h2>
+                <p>Web Developer is in charge of ensuring websites look good and function properly.
+                     Web developers collaborate with website and graphic designers, monitor website traffic, troubleshoot
+                      website problems when they arise, 
+                    and update websites as necessary.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-gamepad"></i>
+                <h2>Game Dev</h2>
+                <p>Video game developers, also known as game developers, are responsible for designing and developing video games
+                     for PC, console, and mobile applications.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>  
+    </div>
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>m.aidilsharif7@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>013-7107434</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aidilsharif/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/aedilsharif/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/aidilozment/"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="picture/aidil sharif new Resume (1).pdf"download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" id="" placeholder="Your Name" required >
+                    <input type="email" name="Email" id="" placeholder="Your Email" required>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright @ Aidil Sharif. Made with github</p>
+    </div>
+</div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }   
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyRqOxtGGggU5n1qgQbm3SI6SCOq1kZ1DqqJLnjhMC2lIpW0w-z1RvsBm3v5gI1HGFx/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
